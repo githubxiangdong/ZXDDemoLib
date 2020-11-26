@@ -1,7 +1,7 @@
 {
   "name": "ZXDDemoLib",
   "version": "0.1.0",
-  "summary": "A short description of ZXDDemoLib.",
+  "summary": "组件库demo",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/githubxiangdong/ZXDDemoLib",
   "license": {
@@ -16,7 +16,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ZXDDemoLib/Classes/**/*"
+  "public_header_files": "ZXDDemoLib/Classes/**/*.h",
+  "subspecs": [
+    {
+      "name": "manager",
+      "source_files": "ZXDDemoLib/Classes/manager/*"
+    }
+  ]
 }

@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B573037C259E896980D5BFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B573037C259E896980D5BFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0ECCAD599F2C830D1F62A66B /* Pods-ZXDDemoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXDDemoLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZXDDemoLib_Tests/Pods-ZXDDemoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2047787F854557F28A9D24FC /* Pods-ZXDDemoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXDDemoLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZXDDemoLib_Example/Pods-ZXDDemoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2CEF38FA64BC7A4E3DE0B13F /* Pods-ZXDDemoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXDDemoLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ZXDDemoLib_Example/Pods-ZXDDemoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E722B31B9D57A2168666EBA /* ZXDDemoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXDDemoLib.podspec; path = ../ZXDDemoLib.podspec; sourceTree = "<group>"; };
+		2E722B31B9D57A2168666EBA /* ZXDDemoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXDDemoLib.podspec; path = ../ZXDDemoLib.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZXDDemoLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXDDemoLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		994BC4A27E0D913F129E14F5 /* Pods_ZXDDemoLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXDDemoLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAE4A13123540508BE046552 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EAE4A13123540508BE046552 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5192C4CDC05F5415F86D84E /* Pods_ZXDDemoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXDDemoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82765D83EBB08891C0B4400 /* Pods-ZXDDemoLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXDDemoLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZXDDemoLib_Tests/Pods-ZXDDemoLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				F82765D83EBB08891C0B4400 /* Pods-ZXDDemoLib_Tests.debug.xcconfig */,
 				0ECCAD599F2C830D1F62A66B /* Pods-ZXDDemoLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = githubxiangdong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6C2N6XAQQQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 2047787F854557F28A9D24FC /* Pods-ZXDDemoLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6C2N6XAQQQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZXDDemoLib/ZXDDemoLib-Prefix.pch";
 				INFOPLIST_FILE = "ZXDDemoLib/ZXDDemoLib-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 2CEF38FA64BC7A4E3DE0B13F /* Pods-ZXDDemoLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6C2N6XAQQQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZXDDemoLib/ZXDDemoLib-Prefix.pch";
 				INFOPLIST_FILE = "ZXDDemoLib/ZXDDemoLib-Info.plist";

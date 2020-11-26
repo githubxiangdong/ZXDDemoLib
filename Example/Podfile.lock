@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - ZXDDemoLib (0.1.0)
+  - ZXDDemoLib (0.1.0):
+    - ZXDDemoLib/manager (= 0.1.0)
+  - ZXDDemoLib/manager (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +22,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZXDDemoLib: ea0962e3e9b2326ce3d759e524c24f45652f7c7b
+  ZXDDemoLib: 84353357fa683b9dd89abed6864d2d8b377f0308
 
-PODFILE CHECKSUM: 64fba1fce2bedc1b411beddee2b3358b7ad50682
+PODFILE CHECKSUM: 86318ffa8b2f67b245bae4b9e8b260f69c2bba2e
 
 COCOAPODS: 1.9.3

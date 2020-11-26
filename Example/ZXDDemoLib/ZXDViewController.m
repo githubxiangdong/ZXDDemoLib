@@ -7,6 +7,7 @@
 //
 
 #import "ZXDViewController.h"
+#import <ZXDDemoLib/DemoManager.h>
 
 @interface ZXDViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [DemoManager version];
 }
 
 - (void)didReceiveMemoryWarning

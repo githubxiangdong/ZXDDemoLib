@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DemoManager.h"
 
 FOUNDATION_EXPORT double ZXDDemoLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZXDDemoLibVersionString[];

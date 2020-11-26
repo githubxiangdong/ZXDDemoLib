@@ -27,16 +27,21 @@ TODO: Add long description of the pod here.
   s.author           = { 'githubxiangdong' => 'zhangxiangdong@koolearn.com' }
   s.source           = { :git => 'https://github.com/githubxiangdong/ZXDDemoLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+    
   s.ios.deployment_target = '9.0'
     
-  s.source_files = 'ZXDDemoLib/Classes/**/*'
+  #s.source_files = 'ZXDDemoLib/Classes/**/*'
+  
+  # 文件结构的划分，新建的类或者新建的文件，之后通过 cd 到  Example pod install 就可以直接在demo里面测试
+  s.subspec 'manager' do |ss|
+    ss.source_files = 'ZXDDemoLib/Classes/manager/*'
+  end
   
   # s.resource_bundles = {
   #   'ZXDDemoLib' => ['ZXDDemoLib/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+    
+  s.public_header_files = 'ZXDDemoLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
