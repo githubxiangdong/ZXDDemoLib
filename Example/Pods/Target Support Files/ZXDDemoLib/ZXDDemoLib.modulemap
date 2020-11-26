@@ -1,0 +1,6 @@
+framework module ZXDDemoLib {
+  umbrella header "ZXDDemoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
