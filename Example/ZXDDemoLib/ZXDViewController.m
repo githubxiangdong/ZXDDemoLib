@@ -7,7 +7,7 @@
 //
 
 #import "ZXDViewController.h"
-#import <ZXDDemoLib/DemoManager.h>
+#import <ZXDDemoLib-umbrella.h>
 
 @interface ZXDViewController ()
 

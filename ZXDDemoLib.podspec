@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   #   'ZXDDemoLib' => ['ZXDDemoLib/Assets/*.png']
   # }
     
-  s.public_header_files = 'ZXDDemoLib/Classes/**/*.h'
+  # s.public_header_files = 'ZXDDemoLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
